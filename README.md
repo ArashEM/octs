@@ -28,6 +28,11 @@ Open Card Tracking System (OCTS) is personal hobby to build a tracking system fo
 # SW components 
 1. [lwgps](https://github.com/MaJerle/lwgps) for parsing GPS data
 2. [lwgsm](https://github.com/MaJerle/lwgsm) to handle SIM800 module 
-3. FreeRTOS
-4. FatFS
+3. [lwjson](https://github.com/MaJerle/lwjson) for parsing JSON data between `octs` and remote server
+4. FreeRTOS
+5. FatFS
 
+# Communication 
+In first place, `octs` remote server will be an `ELK stack`.  
+By using `Kibana` we can visualize location maps.  
+We also have a database and search engine `elastcisearch` too.
