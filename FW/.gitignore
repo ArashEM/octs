@@ -1,0 +1,16 @@
+# uVision build
+MDK-ARM/octs/
+
+# User-specific uVision files
+MDK-ARM/*.opt
+MDK-ARM/*.uvopt
+MDK-ARM/*.uvoptx
+MDK-ARM/*.uvgui
+MDK-ARM/*.uvgui.*
+MDK-ARM/*.uvguix.*
+
+# Makefile build 
+build/
+
+# Trace Recorder Library for Tracealyzer v4.4.2
+Middlewares/Third_Party/TraceRecorder
