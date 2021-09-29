@@ -1,0 +1,4 @@
+[submodule "FW/Middlewares/Third_Party/lwgps"]
+	path = FW/Middlewares/Third_Party/lwgps
+	url = https://github.com/MaJerle/lwgps
+	branch = master

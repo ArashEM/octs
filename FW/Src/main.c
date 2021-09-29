@@ -31,6 +31,7 @@
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
 #include "debug.h"
+#include "lwgps/lwgps.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
